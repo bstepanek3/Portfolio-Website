@@ -1,0 +1,87 @@
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #154360;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Sacramento', cursive;
+  font-size: 180px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: rgb(255, 235, 217);
+}
+
+p {
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  font-size: 25px;
+}
+
+.code {
+  color: #000000;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 25px;
+}
+
+
+.adobe {
+  color: #000000;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 25px;
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+  font-size: 30px;
+  font-family: "Kite One", sans-serif;
+}
+
+
